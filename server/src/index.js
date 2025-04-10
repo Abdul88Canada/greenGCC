@@ -19,7 +19,7 @@ import paymentInfoRoutes from './routes/paymentInfoRoutes.js';
 import subaccountRoutes from './routes/subaccountsRoutes.js';
 
 const app = express();
-app.use(express.json()); // for parsing application/json
+app.use(express.json()); 
 const corsOptions = {
   origin: ['null', process.env.FRONTEND_SERVER, 'https://x-moyasar-form-version.com'], // Array of allowed origins
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
