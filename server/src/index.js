@@ -30,7 +30,6 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // Routes
-app.use('/api/apikeys', apiKeysRoutes); 
 app.use('/api/sectors', sectorRoutes);
 app.use('/api/company', companyRoutes);
 app.use('/api/user', userRoutes);
